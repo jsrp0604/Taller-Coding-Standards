@@ -1,5 +1,4 @@
-//
-//
+// Copyright (C) 2025
 
 package labcodingstandards;
 
@@ -47,13 +46,13 @@ public class Calculator {
         }
 
         Calculator cal=new Calculator();
-        String result=cal.Operation(First,second,operator);
+        String result=cal.operation(First, second, operator);
 
         System.out.printf(result);
 		reader.close();
 	}
 
-	private String Operation(double first,double second,char operator) {
+	private String operation(double first, double second, char operator) {
 		double result = 0;
 		switch(operator)
         {
